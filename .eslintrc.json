@@ -1,8 +1,8 @@
 {
-    "extends": ["@rocketseat/eslint-config/node"],
-    "rules": {
-      "camelcase":"off",
-      "no-useless-constructor":"off"
-    }
+  "extends": ["@rocketseat/eslint-config/node"],
+  "rules": {
+    "camelcase": "off",
+    "no-useless-constructor": "off",
+    "no-unused-vars":"warn"
   }
-  
+}
