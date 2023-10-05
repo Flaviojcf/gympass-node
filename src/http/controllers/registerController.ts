@@ -4,7 +4,7 @@ import { UserAlreadyExistsError } from '@/services/errors/UserAlreadyExistsError
 import { FastifyRequest, FastifyReply } from 'fastify'
 import { z } from 'zod'
 
-export async function registerController(
+export async function RegisterController(
   request: FastifyRequest,
   reply: FastifyReply,
 ) {
