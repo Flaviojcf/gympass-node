@@ -1,4 +1,4 @@
-import { UserAlreadyExistsError } from '@/services/errors/UserAlreadyExistsError'
+import { UserAlreadyExistsError } from '@/errors/UserAlreadyExistsError'
 import { MakeRegisterService } from '@/services/factories/MakeRegisterService'
 import { FastifyRequest, FastifyReply } from 'fastify'
 import { z } from 'zod'
